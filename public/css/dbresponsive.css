@@ -1,0 +1,154 @@
+@media (max-width:1680px){
+	.listar-select select{
+		height: 50px;
+		font-size: 12px;
+		line-height: 24px;
+		padding: 12px 20px;
+	}
+	.listar-businesshours li{width: 20%;}
+}
+@media (max-width:1600px){}
+@media (max-width:1440px){}
+@media (max-width:1366px){}
+@media (max-width:1360px){}
+@media (max-width:1310px){}
+@media (max-width:1309px){}
+@media (max-width:1280px){
+	.listar-businesshours li{width: 25%;}
+	.listar-navigation > ul > li {padding: 7px 24px;}
+}
+@media (max-width:1200px){
+	.listar-wrapper {padding: 0 0 0;}
+	.cd-auto-hide-header {padding: 0;}
+	.listar-logo{
+		width: auto;
+		display: block;
+	}
+	.listar-sidebarwrapper {
+		z-index: 1;
+		left: -238px;
+		width: 238px;
+	}
+	.listar-wrapper.listar-openmenu {padding: 0 0 0 238px;}
+	.listar-wrapper.listar-openmenu .listar-sidebarwrapper {left: 0;}
+	.listar-sidebarwrapper .listar-logo{display: none;}
+	.graph {height: 213px;}
+}
+@media (max-width:1080px){
+	.listar-businesshours li{width: 33.33%;}
+}
+@media (max-width:1050px){}
+@media (max-width:1024px){}
+@media (max-width:991px){
+	.listar-btndelpost{right: 10px;}
+}
+@media (max-width:900px){
+	.listar-statistics{margin: -15px 0;}
+	.listar-statistics li{
+		width: 50%;
+		padding: 15px;
+	}
+	.listar-dashboardwishlists .listar-postcontent {padding: 21px 0;}
+	.listar-formdashboard .listar-generalstates,
+	.listar-formdashboard .listar-postvisits,
+	.listar-peoplereviews,
+	.listar-recentactivity{width: 100%;}
+	.listar-recentactivity{margin: 50px 0 0;}
+	.listar-items{margin: -15px 0;}
+	.listar-items li{
+		width: 33.33%;
+		padding: 15px;
+	}
+	.listar-addnav .listar-btn,
+	.listar-addnav li:last-child .listar-btn {padding: 0 14px;}
+	.listar-dashboardheader {height: 160px;}
+	.listar-sidebarwrapper{padding: 160px 0 0;}
+	.listar-btnmenutoggle {top: 160px;}
+}
+@media (max-width:800px){
+	.listar-dashboardwishlists .listar-themepost {width: 100%;}
+	.listar-dashboardwishlists .listar-themepost:nth-child(2) {border-top: 1px solid #ddd;}
+	.listar-dashboardwishlists .listar-themepost:nth-child(even){border-left: 0;}
+}
+@media (max-width:767px){
+	.listar-businesshours li {width: 50%;}
+	.listar-dashboardmyprofile{padding: 0 0 20px 0;}
+	.listare-profilepic{
+		float: left;
+		margin: 0 0 30px;
+		position: relative;
+	}
+	.listar-dashboardheader {height: 80px;}
+	.listar-sidebarwrapper{padding: 80px 0 0;}
+	.listar-btnmenutoggle {top: 80px;}
+	.listar-addnav ul li {padding: 0;}
+	.listar-addnav ul li + li{margin: 0 0 0 10px;}
+	.listar-navigation {top: 100%;}
+	.listar-navigation ul li{padding: 0;}
+	.listar-addnav ul li{
+		float: none;
+		vertical-align: top;
+		display: inline-block;
+	}
+}
+@media (max-width:700px){
+	.listar-verticalscrollbar{height: auto;}
+}
+@media (max-width:640px){}
+@media (max-width:568px){
+	.listar-actionbtns {
+		width: 100%;
+		padding: 20px 0 0;
+	}
+	.listar-logo {
+		float: none;
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+	.listar-logo a{
+		width: 140px;
+		margin: 0 auto;
+		display: block;
+	}
+	.listar-addnav {
+		width: auto;
+		padding: 10px 0 10px 15px;
+	}
+	.listar-nav {padding: 12px 15px 12px 0;}
+	.listar-dashboardheader {height: 134px;}
+	.listar-btnmenutoggle {top: 134px;}
+	.listar-sidebarwrapper {padding: 150px 0 0;}
+}
+@media (max-width:480px){
+	.listar-btndelpost {
+		top: auto;
+		right: 30px;
+		bottom: 80px;
+	}
+	.listar-dashboardwishlists .listar-themepost .listar-featuredimg{
+		margin: 0;
+		width: 100%;
+	}
+	.listar-dashboardwishlists .listar-postcontent {
+		width: 100%;
+		float: left;
+		padding-bottom: 0;
+	}
+	.listar-btnuploadimg{
+		width: 100%;
+		padding: 0;
+	}
+}
+@media (max-width:479px){
+	.listar-businesshours li,
+	.listar-statistics li,
+	.listar-items li{width: 100%;}
+	.listar-activitytitle {padding: 7px 0;}
+	.listar-nav{
+		width: auto;
+		position: static;
+	}
+	.navbar-toggle {margin: 0;}
+}
+@media (max-width:359px){}
