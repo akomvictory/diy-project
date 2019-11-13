@@ -18,11 +18,12 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->string('verifyToken');
-            $table->boolean('status');
+            $table->boolean('status')->default(0);
             $table->string('registrationPurpose');
             $table->string('appActiveStageURL');
             $table->string('chargedAmount');
             $table->rememberToken();
+         
             $table->timestamps();
         });
     }

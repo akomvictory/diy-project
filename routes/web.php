@@ -11,8 +11,12 @@
 |
 */
 
+//Auth::routes(['verify' => true]);
+
+Auth::routes(['verify' => true]);
 
 Auth::routes();
+
 
 Route::get('/', 'concoursePagesController@indexPage');
 
@@ -305,3 +309,7 @@ Route::get('/account/{id}/payment/options', 'paymentOptionsController@index');
 
 Route::put('/payment/{id}/free', 'paymentOptionsController@freePayment');
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
